@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <div class="input-form">
+            <div class="nombre">
+                <label for="name">Nombre</label>
+                <input id="name" type="text" placeholder="nombre">
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="mail">
+            </div>
+            <div class="telephone">
+                <label for="telephone">Telefono</label>
+                <input type="tel" id="telephone" placeholder="Su teléfono">
+            </div>
+        </div>
+
+        <fieldset class="field">
+            <legend>Lenguajes que conoce</legend>
+            <div class="selectores">
+                <div class="options">
+                    <label for="js">JavaScript</label>
+                    <input type="checkbox" checked name="js" id="js">
+                </div>
+                <div class="options">
+                    <label for="php">PHP</label>
+                    <input type="checkbox" name="php" id="php">
+                </div>
+                <div class="options">
+                    <label for="nodejs">NodeJS</label>
+                    <input type="checkbox" name="nodejs" id="nodejs">
+                </div>
+                <div class="options">
+                    <label for="Python">Python</label>
+                    <input type="checkbox" name="Python" id="Python">
+                </div>
+            </div>
+        </fieldset>
+
+        <div class="ingles">
+            <h5>Nivel de Inglés</h5>
+            <div class="radios">
+                <div class="radio-options">
+                    <label for="bajo">Bajo</label>
+                    <input type="radio" checked name="bajo" id="bajo">
+                </div>
+                <div class="radio-options">
+                    <label for="medio">Medio</label>
+                    <input type="radio" name="medio" id="bajo">
+                </div>
+                <div class="radio-options">
+                    <label for="alto">Alto</label>
+                    <input type="radio" name="alto" id="alto">
+                </div>
+            </div>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

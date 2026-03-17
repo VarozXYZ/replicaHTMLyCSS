@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .header {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 8vh;
+            background-color: rgb(226, 147, 1);
+        }
+
+        .main {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+        }
+        .side {
+            display: flex;
+            justify-content: center;
+            height: 92vh;
+            padding: 15px;
+            background-color: gray;
+            color: white;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            height: 92vh;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Título de página</h1>
+    </header>
+    <main class="main">
+        <div class="side">Lateral izquierdo</div>
+        <div class="center">Zona central</div>
+        <div class="side">Lateral derech</div>
+    </main>
+</body>
+</html>
