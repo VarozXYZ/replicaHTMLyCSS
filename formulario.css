@@ -1,26 +1,30 @@
 .input-form {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            margin-bottom: 25px;
-        }
-        .selectores {
-            display: flex;
-            flex-direction: column;
-            width: 150px;
-            gap: 15px;
-        }
-        .options {
-            display: flex;
-            justify-content: space-between;
-        }
-        .radios {
-            display: flex;
-            flex-direction: column;
-            width: 150px;
-            gap: 15px;
-        }
-        .radio-options {
-            display: flex;
-            justify-content: space-between;
-        }
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.selectores {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 15px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radios {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 15px;
+}
+
+.radio-options {
+    display: flex;
+    justify-content: space-between;
+}
